@@ -4,13 +4,15 @@
 ### Bitcoin Exchange Rate v1.2 by John Atkinson (jga) from BTC Gear (http://www.btcgear.com)
 ### bounties/donations 14dTC7bBphANAHzmK9aD7X7Wvo99rhHMTF
 
-#### Coindesk.com fork v1.0 by Sungwon Choe (http://www.sungwonchoe.com)
-#### donations 16zVWVJ69m145BbGDvtUWiQnLe6qs8mGdD
+### Coindesk.com fork v1.0 by Sungwon Choe (http://www.sungwonchoe.com)
+### donations 16zVWVJ69m145BbGDvtUWiQnLe6qs8mGdD
 
 
 This OpenCart extension initializes the Bitcoin (BTC) currency inside OpenCart and updates the exchange rate every minute to remain current. It pulls the curent BTC value from the Coindesk.com API.
 
 This extension works with all currencies supported by the Coindesk.com API
+
+## Important! Each page that uses this extension must include the text “Powered by CoinDesk“ and link to http://www.coindesk.com/price/
 
 ### Original Version Compatible with OpenCart versions:
 
@@ -31,7 +33,7 @@ This extension works with all currencies supported by the Coindesk.com API
 * 1.5.5
 * 1.5.5.1
 
-### Coindesk fork tested with version 1.5.5
+Coindesk fork tested with version 1.5.5
 
 Coindesk API-related issues, please contact sungwon.peter.choe@gmail.com
 

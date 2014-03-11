@@ -23,7 +23,7 @@ This product is offered with no warranty and is currently supported only for Ope
 * 1.5.5.1
 
 ===INSTALLATION===
-Installation is a two step process.  You must upload bitcoin_update.php and you must modify index.php.
+Installation is a three step process.  You must upload bitcoin_update.php, you must modify index.php and you must credit coindesk.
   
 STEP 1) Upload bitcoin_update.php:
 Place bitcoin_update.php in the folder [OpenCart]/catalog/controller/common
@@ -38,6 +38,11 @@ $controller->addPreAction(new Action('common/seo_url'));
 Add:
 // Update Currencies
 $controller->addPreAction(new Action('common/bitcoin_update'));
+
+STEP3) Credit coindesk
+Each page that uses this extension must include the text “Powered by CoinDesk“ and link to http://www.coindesk.com/price/
+I recommend doing this in the footer.tpl of your theme.
+
 
 Enjoy!  
 
