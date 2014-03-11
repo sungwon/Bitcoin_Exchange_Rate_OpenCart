@@ -1,14 +1,18 @@
-# Bitcoin Exchange Rate v1.2
+# Bitcoin Exchange Rate v1.2 - Coindesk.com fork v1.0
 ## OpenCart Extension
-### by John Atkinson (jga) from BTC Gear (http://www.btcgear.com)
 
-bounties/donations 14dTC7bBphANAHzmK9aD7X7Wvo99rhHMTF
+### Bitcoin Exchange Rate v1.2 by John Atkinson (jga) from BTC Gear (http://www.btcgear.com)
+### bounties/donations 14dTC7bBphANAHzmK9aD7X7Wvo99rhHMTF
 
-This OpenCart extension initializes the Bitcoin (BTC) currency inside OpenCart and updates the exchange rate every minute to remain current. It pulls both the 24-hour average trade value or the last trade value from Mt. Gox and uses whichever one is friendlier for the merchant thus lessening the currency risk. 
+#### Coindesk.com fork v1.0 by Sungwon Choe (http://www.sungwonchoe.com)
+#### donations 16zVWVJ69m145BbGDvtUWiQnLe6qs8mGdD
 
-This extension now works with all currencies supported by the Mt. Gox API: USD, AUD, CAD, CHF, CNY, DKK, EUR, GBP, HKD, JPY, NZD, PLN, RUB, SEK, SGD, THB
 
-###Compatible with OpenCart versions:
+This OpenCart extension initializes the Bitcoin (BTC) currency inside OpenCart and updates the exchange rate every minute to remain current. It pulls the curent BTC value from the Coindesk.com API.
+
+This extension works with all currencies supported by the Coindesk.com API
+
+### Original Version Compatible with OpenCart versions:
 
 * 1.5.0
 * 1.5.0.2
@@ -26,6 +30,12 @@ This extension now works with all currencies supported by the Mt. Gox API: USD, 
 * 1.5.4.1
 * 1.5.5
 * 1.5.5.1
+
+### Coindesk fork tested with version 1.5.5
+
+Coindesk API-related issues, please contact sungwon.peter.choe@gmail.com
+
+Original version copyright notice:
 
 If you have any issues or comments about this software, please contact support@btcgear.com
 
